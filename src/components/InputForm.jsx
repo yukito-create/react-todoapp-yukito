@@ -10,6 +10,7 @@ export const InputForm = ({ taskList, setTaskList }) => {
     setTaskList([
       ...taskList,
       {
+        id: taskList.length,
         text: inputText
       }
     ]);
